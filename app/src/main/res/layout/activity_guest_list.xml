@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="20dp" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25dp" android:text="רשימת מוזמנים" />
+    <TextView android:gravity="5" android:layout_gravity="3" android:id="@id/GuestListActivity_ticketsBought" android:layout_width="80dp" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="7dp" android:text="סך הכל מוזמנים:" android:lines="2" />
+    <TableLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp">
+        <TableRow android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="16dp" android:textStyle="1" android:gravity="11" android:background="@xml/cell_shape" android:layout_width="0dp" android:layout_height="-2" android:layout_column="1" android:text="שם המזמין" android:lines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="16dp" android:textStyle="1" android:gravity="11" android:background="@xml/cell_shape" android:layout_width="0dp" android:layout_height="-2" android:layout_column="2" android:text="קרבה לתלמיד" android:lines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="16dp" android:textStyle="1" android:gravity="11" android:background="@xml/cell_shape" android:layout_width="0dp" android:layout_height="-2" android:layout_column="3" android:text="כמות כרטיסים" android:lines="1" android:layout_weight="1.0" />
+        </TableRow>
+        <View android:background="#ab35c7ec" android:layout_width="-1" android:layout_height="3dp" />
+    </TableLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:verticalScrollbarPosition="2">
+        <TableLayout android:id="@id/GuestListActivity_tableLayout" android:layout_width="-1" android:layout_height="-1" />
+    </ScrollView>
+</LinearLayout>

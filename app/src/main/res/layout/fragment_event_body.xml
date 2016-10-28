@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <EditText android:textSize="18sp" android:gravity="800003" android:id="@id/event_body" android:layout_width="300dp" android:layout_height="400dp" android:hint="מה יקרה שם.." android:lines="15" android:selectAllOnFocus="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="20001" android:textAlignment="2" />
+    <ImageView android:id="@id/fragmentBody_arrow" android:layout_width="55dp" android:layout_height="55dp" android:src="0x1080002" android:layout_toLeftOf="@id/event_body" android:layout_centerInParent="true" />
+</RelativeLayout>

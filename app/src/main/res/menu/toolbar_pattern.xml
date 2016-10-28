@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/mainActivity_Logout_btn2" app:title="@string/Logout" app:showAsAction="2" />
+</menu>

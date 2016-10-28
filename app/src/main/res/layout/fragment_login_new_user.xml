@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+    <EditText android:id="@id/name_new_user" android:layout_width="-1" android:layout_height="-2" android:hint="name" android:lines="1" android:inputType="2001" />
+    <Spinner android:gravity="11" android:id="@id/spinner" android:layout_width="-1" android:layout_height="-2" />
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="של:" />
+    <EditText android:id="@id/student_new_user" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" android:hint="התלמיד.." android:lines="1" android:inputType="2001" />
+    <EditText android:id="@id/email_new_user" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:hint="email" android:inputType="21" />
+    <EditText android:id="@id/password_new_user" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:hint="password" android:inputType="81" />
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <Button android:id="@id/btn_new_user" android:layout_width="-2" android:layout_height="-2" android:text="Create user" />
+        <ProgressBar android:id="@id/progressBar_new_user" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7dp" />
+    </LinearLayout>
+</LinearLayout>

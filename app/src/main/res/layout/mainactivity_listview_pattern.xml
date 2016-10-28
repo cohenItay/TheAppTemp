@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:id="@id/mainActivity_listView_rootLayout" android:background="#ffaa00" android:layout_width="-1" android:layout_height="60dp" android:layout_margin="10dp"
+        <LinearLayout android:orientation="1" android:id="@id/mainAvtivity_listView_InfoBtn" android:layout_width="0dp" android:layout_height="-1" android:layout_margin="5dp" android:layout_weight="3.0">
+            <TextView android:textSize="20dp" android:id="@id/mainActivity_listView_headLine" android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:text="מופע סיום תלמידים שנה ב" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="10dp" android:id="@id/mainActivity_listView_body" android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:text="חמודים חמודים חמודים חמודים חמודים חמודים חמודים חמודים חמודים " android:maxLines="2" android:lines="2" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@id/mainAvtivity_listView_BuyBtn" android:background="#33ffffff" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="0dp" android:layout_marginBottom="5dp" android:layout_weight="1.0">
+            <TextView android:textSize="14sp" android:gravity="11" android:id="@id/mainActivity_listView_pressToBuy_textView" android:layout_width="-1" android:layout_height="22dp" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:text="לחץ לקנייה" android:textDirection="4" />
+            <TextView android:textSize="11sp" android:gravity="800005" android:id="@id/mainActivity_listView_hallPlacesLeft" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_marginTop="2dp" android:layout_marginRight="3dp" android:text="23 נותרו" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

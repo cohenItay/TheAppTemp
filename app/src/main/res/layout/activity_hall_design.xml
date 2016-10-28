@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ScrollView android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <HorizontalScrollView android:id="@id/hallDesignActivity_Hscroll" android:layout_width="-2" android:layout_height="-2">
+                <LinearLayout android:orientation="1" android:id="@id/mainLinear" android:layout_width="-2" android:layout_height="-2">
+                    <ImageView android:layout_gravity="1" android:layout_width="300dp" android:layout_height="50dp" android:layout_marginBottom="15dp" android:src="@drawable/stage" android:scaleType="1" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+        <ImageButton android:id="@id/activity_minusBtnRight" android:visibility="2" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="7dp" android:layout_marginRight="10dp" android:src="0x108001d" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/activity_plusBtnRight" android:visibility="2" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="10dp" android:src="0x108002b" android:layout_above="@id/activity_minusBtnRight" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/activity_minusBtnLeft" android:visibility="2" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:layout_marginTop="7dp" android:src="0x108001d" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageButton android:id="@id/activity_plusBtnLeft" android:visibility="2" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:src="0x108002b" android:layout_above="@id/activity_minusBtnLeft" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/hallDesignActivity_rightEntrance" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="10dp" android:src="@drawable/entrance_arrow_up_left" android:layout_above="@id/activity_plusBtnRight" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/hallDesignActivity_leftEntrance" android:visibility="2" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:src="@drawable/entrance_arrow_up_right" android:layout_above="@id/activity_plusBtnLeft" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <Button android:id="@id/activity_btnSave" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="שמור" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>
